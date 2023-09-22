@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Comidas Mexicanas</title>
+    <style>
+        body {
+            background-color: #ff8615e5; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #8f0d0d;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #dd0e0ef3;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        
+        .plato {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .plato h2 {
+            color: #E60000; 
+            font-size: 24px;
+        }
+
+        .plato p {
+            font-size: 16px;
+        }
+
+        .plato img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Menú de Comidas Mexicanas</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <div class="boton-regresar">
+            <li><a href="index.html">Regresar</a></li>
+            <li><a href="#tacos">Tacos</a></li>
+            <li><a href="#enchiladas">Enchiladas</a></li>
+            <li><a href="#guacamole">Guacamole</a></li>
+            <li><a href="#chiles">Chiles en Nogada</a></li>
+            <li><a href="#pozole">Pozole</a></li>
+            <li><a href="#tamales">Tamales</a></li>
+        </ul>
+    </nav>
+
+    <div id="tacos" class="plato">
+        <h2>Tacos</h2>
+        <img src="https://www.comedera.com/wp-content/uploads/2017/08/tacos-al-pastor-receta.jpg" width= 300px height=200px>
+        <p>Deliciosos tacos mexicanos rellenos de carne asada,al pastor, pollo, carnitas o cualquier otro ingrediente de tu elección. Acompañados de cebolla, cilantro, salsa y limón.</p>
+    </div>
+
+    <div id="enchiladas" class="plato">
+        <h2>Enchiladas</h2>
+        <img src="https://www.cocinavital.mx/wp-content/uploads/2022/06/enchiladas-huastecas-receta.jpg" width= 300px height=200px>
+        <p>Tortillas de maíz rellenas de pollo, queso o carne, bañadas en una salsa de chile rojo o verde y gratinadas con queso. Se sirven con crema y queso fresco.</p>
+    </div>
+
+    <div id="guacamole" class="plato">
+        <h2>Guacamole</h2>
+        <img src="https://assets.unileversolutions.com/recipes-v2/93272.jpg" width= 300px height=200px>
+        <p>Un dip clásico mexicano hecho con aguacates, tomate, cebolla, cilantro, chile y limón. Ideal para acompañar con totopos de maíz.</p>
+    </div>
+
+    <div id="chiles" class="plato">
+        <h2>Chiles en Nogada</h2>
+        <img src="https://www.unileverfoodsolutions.com.mx/dam/global-ufs/mcos/NOLA/calcmenu/recipes/MX-recipes/red-meats-&-red-meat-dishes/chile-en-nogada/main-header.jpg" width= 300px height=200px>
+        <p>Chiles poblanos rellenos de picadillo (carne de res y cerdo), cubiertos con una deliciosa salsa de nuez y esparcidos con granada. Una delicia típica de la temporada.</p>
+    </div>
+
+    <div id="pozole" class="plato">
+        <h2>Pozole</h2>
+        <img src="https://www.cocinavital.mx/wp-content/uploads/2022/09/pozole-rojo.jpg" width= 300px height=200px>
+        <p>Un caldo espeso hecho con maíz hominy y carne (generalmente cerdo o pollo). Se sirve con rábanos, lechuga, orégano, chile en polvo y tortillas.</p>
+    </div>
+
+    <div id="tamales" class="plato">
+        <h2>Tamales</h2>
+        <img src="https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/68D64DAE-9605-42AC-BDCF-328A509EC776/Derivates/7AC0E9FD-F0DA-410B-9D78-19D3C3BEA1F3.jpg" width= 300px height=200px>
+        <p>Masas de maíz rellenas de carne, pollo, chiles, frijoles o dulces, cocidas al vapor en hojas de maíz. Un bocado tradicional mexicano.</p>
+    </div>
+    
+</body>
+</html>
